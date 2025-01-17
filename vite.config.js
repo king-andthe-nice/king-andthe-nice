@@ -6,7 +6,7 @@ const repo = process.env.GITHUB_REPOSITORY?.split('/')[1] || ''
 
 export default defineConfig({
   plugins: [vue()],
-  base: '/',  // 直接使用仓库名称
+  base: '/king-andthe-nice/',  // 直接使用仓库名称
   server: {
     port: 3000
   }
